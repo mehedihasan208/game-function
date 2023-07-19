@@ -55,9 +55,7 @@
     display: grid ;
     grid-template-columns: repeat(2,1fr);
     justify-content: space-around;
-   
     gap: 40px;
-   
 }
 
 .containar-one p{
@@ -324,10 +322,6 @@ footer{
 
 /* display greed korbo ekhane  */
 
-.containar-image{
-    display: grid;
-    grid-template-rows: repeat(4,1fr) 50px;
-}
 
 .box:hover{
     border: 2px solid orange;
