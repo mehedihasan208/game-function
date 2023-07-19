@@ -376,11 +376,42 @@ footer{
             
         }
     }
-/* } */
-/* @media screen and (max-width: 576px)(min-width:996px) {
-    .nav-containar,.nav-menus,.toy-story{
+
+    /* .tablet er jonno */
+
+    @media screen and (min-width:576px) and (max-width: 960px){
+    .nav-containar,
+    .nav-menus, 
+    .banner-image,
+    .connection {
         flex-direction: column;
     }
-         */
-    
-/* } */
+    .tablet-photo{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .toy-story{
+        width: 80%;
+        padding: 30px;
+        margin: auto;
+        display: grid ;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 50px;
+    }
+    .banner-image{
+        grid-template-columns: repeat(2,1fr);
+    }
+        .mosque{
+            grid-template-columns: repeat(4,1fr);
+            width: 90%;
+
+        }
+        .entertainment{
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .containar-5{
+            grid-template-columns: repeat(4,1fr);
+            width: 100%;
+            
+        }
+    }
