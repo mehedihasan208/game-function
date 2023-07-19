@@ -49,7 +49,7 @@
     margin-top: 100px;
 }
 .toy-story{
-    
+
     width: 90%;
     margin: auto;
     display: grid ;
@@ -64,6 +64,7 @@
     color: #0B0223;
     font-size: 30px;
     font-weight: 800;
+
 }
 .containar-one h1{
     font-size: 60px;
@@ -129,7 +130,7 @@
 }
 
 .banner-title-two{
-            text-align: end;
+            text-align:center;
             padding: 40px;
 }
 .banner-title-two h2{
@@ -218,7 +219,7 @@ margin-top: 70px;
 }
 
 .connection-two{
-    text-align: end;
+    text-align: center;
     margin-top: 50px;
 }
 .connection-two p{
@@ -307,10 +308,14 @@ footer{
     gap: 30px;
 }
 .entertainment{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
     gap: 30px;
+    list-style: none;
+    width: 70%;
+   margin: auto;
+   padding-top: 30px;
+   padding-bottom: 10px;
 }
 .play-game{
  text-align: center;
@@ -349,7 +354,7 @@ footer{
         flex-direction: column;
     }
     .tablet-photo{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .toy-story{
         width: 80%;
@@ -367,10 +372,14 @@ footer{
             width: 90%;
 
         }
+        .entertainment{
+            grid-template-columns: repeat(2,1fr);
+        }
+
         .containar-5{
             grid-template-columns: repeat(3,1fr);
-            width: 100
-            %;
+            width: 100%;
+            
         }
     }
 /* } */
