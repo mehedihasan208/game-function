@@ -13,10 +13,11 @@
 }
 .nav-design{
    color:#FF42A5 ;
+
 }
 .nav-image{
-    height: 20px;
-    width: 40px;
+    ;
+    width:100%;
 }
 .nav-menus{
     display: flex;
@@ -28,8 +29,8 @@
     gap: 10px;
 }
 .mehedi{
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 800;
 }
 .nav-menus li{
     color: #3C354F;
@@ -44,26 +45,29 @@
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
-.toy-story{
-    display: flex;
-    justify-content: space-around;
-    height: 80vh;
-    gap: 40px;
-    /* margin-top: 30px; */
-    /* background-color: grey; */
+.section-2{
+    margin-top: 100px;
 }
-.containar-one{
-    /* background-color: aqua; */
+.toy-story{
+    
+    width: 90%;
+    margin: auto;
+    display: grid ;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+   
+    gap: 40px;
+   
 }
 
 .containar-one p{
     color: #0B0223;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 800;
 }
 .containar-one h1{
     font-size: 60px;
-    font-weight: 800;
+    font-weight: 900;
     color:#B459FF;
     margin-top: 10px;
 }
@@ -72,8 +76,7 @@
 }
 
 .edit-photo{
-    height: 500px;
-    width:500px;
+    width:100%;
 }
 .btn-primary{
     padding: 18px 40px 18px 40px;
@@ -96,9 +99,23 @@
 
 
 /* <!-- it is third part of project --> */
+
+.new-section{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+
 .banner-image{
-    display: flex;
-    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 30px;
@@ -107,16 +124,17 @@
 
 .banner-section{
     padding-left: 50px;
-    width:  500px;
-    height: 489px;
+    width:  100%;
+   
 }
+
 .banner-title-two{
             text-align: end;
             padding: 40px;
 }
 .banner-title-two h2{
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
@@ -124,8 +142,13 @@ background-clip: text;
 }
 .banner-title-two p{
     color: #534C64;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
+}
+.banner-info{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 /* <!-- it is part of four of our project  --> */
@@ -143,45 +166,49 @@ margin-top: 70px;
 }
 .paragraph{
     color: #534C64;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 /* <!-- it is part of five of our project  --> */
 
 .tablet-photo{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+   
 
 }
 
 .mobile-photo{
-    height: 250px;
-    width: 250px;
+   
+    width: 100%;
 }
 
 /* <!-- it is part of six of our project  --> */
 
 .connection{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
     align-items:normal;
     padding: 50px;
-    margin: 50px;
+    width: 80%;
+    margin: auto;
+
     gap: 70px;
 }
 .photo-connection{
     margin-left: 80px;
     width:90% ;
-    height: 500px;
+  
 }
 
 .inter-connection{
-    width: 200px;
+    width: 50%;
     /* padding: 50px; */
     position:relative;
-   bottom: 150px;
+   bottom: 200px;
 
 }
 
@@ -191,28 +218,50 @@ margin-top: 70px;
 }
 .connection-two p{
     color: #534C64;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 
 .connection-two h1{
     color: #0B0223;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 800;
 }
 
 /* <!-- it is a part of seven of our project --> */
+.containar-5{
+    width: 95%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* justify-content: space-between; */
+    gap: 50px;
+    text-align: center;
+    
+}
 
-
-
-
+/* .container-4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+} */
+.box{
+    display: flex;
+    gap:10px;
+    text-align: center;
+}
 /* it is last and footer project */
 
 footer{
+
+    margin-top: 100px;
     padding: 20px;
     color: white;
-    height: 70vh;
+    
     background: #0B0223;
 }
 .footer-high{
@@ -233,17 +282,22 @@ footer{
 
 
 .mosque{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
     list-style: none;
     gap: 30px;
-    margin-top: 30px;
+    margin-top:5px;
+    /* padding: 40px; */
+   width: 70%;
+   margin: auto;
+   padding-top: 30px;
+   padding-bottom: 10px;
 }
 .discover{
     display: flex;
     text-align: center;
     justify-content: center;
+  
     align-items: center;
     gap: 30px;
 }
@@ -258,11 +312,19 @@ footer{
 }
 
 
+/* display greed korbo ekhane  */
 
+.containar-image{
+    display: grid;
+    grid-template-rows: repeat(4,1fr) 50px;
+}
 
-
-
-
+.box:hover{
+    border: 2px solid orange;
+    /* padding: 5px; */
+    border-radius: 20px;
+    transition-duration: .5s;
+}
 
 
 
@@ -277,19 +339,42 @@ footer{
 @media screen and (max-width: 576px) {
     .nav-containar,
     .nav-menus,
-    .toy-story,
+   
     .banner-image,
-    .tablet-photo,
+   
     .connection{
         flex-direction: column;
     }
-        
-    
-}
-@media screen and (max-width: 576px)(min-width:996px) {
+    .tablet-photo{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .toy-story{
+        width: 80%;
+        padding: 30px;
+        margin: auto;
+        display: grid ;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 50px;
+    }
+    .banner-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+        .mosque{
+            grid-template-columns: repeat(3,1fr);
+            width: 90%;
+
+        }
+        .containar-5{
+            grid-template-columns: repeat(3,1fr);
+            width: 100
+            %;
+        }
+    }
+/* } */
+/* @media screen and (max-width: 576px)(min-width:996px) {
     .nav-containar,.nav-menus,.toy-story{
         flex-direction: column;
     }
-        
+         */
     
-}
+/* } */
