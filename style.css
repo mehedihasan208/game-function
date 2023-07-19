@@ -1,0 +1,24 @@
+/* work sans font form google drive */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-containar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-design{
+   color:#FF42A5 ;
+}
+.nav-image{
+    height: 20px;
+    width: 30px;
+}
+.nav-menus{
+    display: flex;
+   list-style: none;
+   gap: 20px;
+}
