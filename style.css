@@ -104,8 +104,10 @@
     padding: 30px;
 
 }
+
 .banner-section{
-    width:  700px;
+    padding-left: 50px;
+    width:  500px;
     height: 489px;
 }
 .banner-title-two{
@@ -164,15 +166,101 @@ margin-top: 70px;
 .connection{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 100px;
-    gap: 50px;
+    align-items:normal;
+    padding: 50px;
+    margin: 50px;
+    gap: 70px;
 }
 .photo-connection{
-    width: 400px;
-    height: 400px;
-    flex-shrink: 0;
+    margin-left: 80px;
+    width:90% ;
+    height: 500px;
 }
+
+.inter-connection{
+    width: 200px;
+    /* padding: 50px; */
+    position:relative;
+   bottom: 150px;
+
+}
+
+.connection-two{
+    text-align: end;
+    margin-top: 50px;
+}
+.connection-two p{
+    color: #534C64;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.connection-two h1{
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* <!-- it is a part of seven of our project --> */
+
+
+
+
+/* it is last and footer project */
+
+footer{
+    padding: 20px;
+    color: white;
+    height: 70vh;
+    background: #0B0223;
+}
+.footer-high{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+}
+.navi-blue{
+    color: #F948B2;
+}
+.white{
+    
+    text-align: center; 
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.mosque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin-top: 30px;
+}
+.discover{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.entertainment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.play-game{
+ text-align: center;
+}
+
+
+
+
+
 
 
 
@@ -191,7 +279,8 @@ margin-top: 70px;
     .nav-menus,
     .toy-story,
     .banner-image,
-    .tablet-photo{
+    .tablet-photo,
+    .connection{
         flex-direction: column;
     }
         
