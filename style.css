@@ -2,23 +2,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 * {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
 }
 
 .nav-containar{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
+    margin-top: 25px;
 }
 .nav-design{
    color:#FF42A5 ;
 }
 .nav-image{
     height: 20px;
-    width: 30px;
+    width: 40px;
 }
 .nav-menus{
     display: flex;
    list-style: none;
    gap: 20px;
+}
+.rapid{
+    display: flex;
+    gap: 10px;
+}
+.mehedi{
+    font-size: 22px;
+    font-weight: 700;
+}
+.nav-menus li{
+    color: #3C354F;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500; 
+}
+.icon-color{
+    text-align: center;
+    width:150px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .nav-containar,.nav-menus{
+        flex-direction: column;
+    }
+        
+    
 }
