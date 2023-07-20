@@ -389,6 +389,9 @@ footer{
             width: 100%;
             
         }
+        .btn-secondary{
+            margin-top: 10px;
+        }
     }
 
     /* .tablet er jonno */
