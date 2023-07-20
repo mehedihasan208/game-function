@@ -1,8 +1,13 @@
 /* work sans font form google drive */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 * {
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Work Sans', sans-serif; */
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .nav-containar{
@@ -16,7 +21,6 @@
 
 }
 .nav-image{
-    ;
     width:100%;
 }
 .nav-menus{
@@ -64,10 +68,15 @@
     font-weight: 800;
 
 }
+
 .containar-one h1{
     font-size: 60px;
     font-weight: 900;
-    color:#B459FF;
+    /* color:#B459FF; */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 10px;
 }
 .containar-one li{
@@ -93,6 +102,7 @@
     font-weight: 600;
     border-radius: 48px;
     background: #4EC5F7;
+    margin-top: 10px;
 
 }
 
@@ -186,6 +196,12 @@ margin-top: 70px;
 
 /* <!-- it is part of six of our project  --> */
 
+.negative{
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
 .connection{
     display: flex;
     /* grid-template-columns: repeat(2,1fr); */
@@ -240,7 +256,7 @@ margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     /* justify-content: space-between; */
-    gap: 50px;
+    gap: 10px;
     text-align: center;
     
 }
@@ -261,11 +277,9 @@ margin-top: 70px;
 /* it is last and footer project */
 
 footer{
-
     margin-top: 100px;
     padding: 20px;
-    color: white;
-    
+    color: white; 
     background: #0B0223;
 }
 .footer-high{
@@ -317,6 +331,7 @@ footer{
 }
 .play-game{
  text-align: center;
+ margin-top: 20px;
 }
 
 
@@ -343,7 +358,6 @@ footer{
 @media screen and (max-width: 576px) {
     .nav-containar,
     .nav-menus, 
-    .banner-image,
     .connection {
         flex-direction: column;
     }
@@ -382,7 +396,6 @@ footer{
     @media screen and (min-width:576px) and (max-width: 960px){
     .nav-containar,
     .nav-menus, 
-    .banner-image,
     .connection {
         flex-direction: column;
     }
